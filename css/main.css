@@ -5,8 +5,8 @@
 }
 
 body {
-  font-family: 'montserrat', sans-serif;
-  background-image: url('../images/bg.jpg');
+  font-family: 'Poppins', sans-serif;
+  background-image: url('../images/bg1.jpg');
   background-size: cover;
   background-position: top center;
 }
@@ -24,6 +24,7 @@ body {
   border: none;
   outline: none;
   transition: all .5s ease-in-out;
+  font-weight: 600;
 }
 .txt{
   color: #17a2b8;
@@ -55,7 +56,9 @@ header input {
 header input:focus {
   background-color: rgba(255, 255, 255, 0.6);
 }
-
+header input::placeholder{
+  color: #FFF;
+}
 main {
   flex: 1 1 100%;
   padding: 25px 25px 50px;
